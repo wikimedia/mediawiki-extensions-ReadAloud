@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sophivorus"
+		]
+	},
+	"readaloud-desc": "Agrega un botón para leer en voz alta la página actual",
+	"readaloud-read-aloud": "Leer en voz alta",
+	"readaloud-pause-reading": "Pausar lectura"
+}

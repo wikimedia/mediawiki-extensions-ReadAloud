@@ -1,0 +1,9 @@
+#ca-pause-reading {
+	display: none;
+}
+.read {
+    cursor: pointer;
+}
+.reading {
+    background: #ffa;
+}

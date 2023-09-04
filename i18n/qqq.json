@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sophivorus"
+		]
+	},
+	"readaloud-desc": "{{desc|name=ReadAloud|url=https://www.mediawiki.org/wiki/Extension:ReadAloud}}",
+	"readaloud-read-aloud": "Label for the button to start reading aloud",
+	"readaloud-pause-reading": "Label for the button to pause reading aloud"
+}

@@ -1,0 +1,50 @@
+{
+	"manifest_version": 2,
+	"name": "ReadAloud",
+	"version": "1.0",
+	"url": "https://www.mediawiki.org/wiki/Extension:ReadAloud",
+	"author": "[https://www.mediawiki.org/wiki/User:Sophivorus Sophivorus]",
+	"license-name": "GPL-3.0-or-later",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.39.0"
+	},
+	"MessagesDirs": {
+		"ReadAloud": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"ReadAloud": "ReadAloud.php"
+	},
+	"ResourceModules": {
+		"ext.ReadAloud": {
+			"scripts": "ReadAloud.js",
+			"targets": [
+				"desktop",
+				"mobile"
+			]
+		},
+		"ext.ReadAloud.styles": {
+			"styles": "ReadAloud.css",
+			"targets": [
+				"desktop",
+				"mobile"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "ReadAloud"
+	},
+	"Hooks": {
+		"BeforePageDisplay": "ReadAloud::onBeforePageDisplay",
+		"SkinTemplateNavigation::Universal": "ReadAloud::onSkinTemplateNavigationUniversal"
+	},
+	"config": {
+		"ReadAloudNamespaces": {
+			"value": [ 0 ],
+			"merge_strategy": "provide_default"
+		}
+	}
+}
