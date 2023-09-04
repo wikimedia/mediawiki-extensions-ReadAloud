@@ -1,7 +1,7 @@
 {
 	"manifest_version": 2,
 	"name": "ReadAloud",
-	"version": "1.0",
+	"version": "1.1",
 	"url": "https://www.mediawiki.org/wiki/Extension:ReadAloud",
 	"author": "[https://www.mediawiki.org/wiki/User:Sophivorus Sophivorus]",
 	"license-name": "GPL-3.0-or-later",
@@ -45,6 +45,9 @@
 		"ReadAloudNamespaces": {
 			"value": [ 0 ],
 			"merge_strategy": "provide_default"
+		},
+		"ReadAloudNearEdit": {
+			"value": true
 		}
 	}
 }

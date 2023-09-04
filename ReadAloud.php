@@ -16,7 +16,7 @@ class ReadAloud {
 	 * @param array &$links
 	 */
 	public static function onSkinTemplateNavigationUniversal( SkinTemplate $skinTemplate, array &$links ) {
-		global $wgReadAloudNamespaces;
+		global $wgReadAloudNamespaces, $wgReadAloudNearEdit;
 
 		// Only add the buttons in relevant pages
 		$skin = $skinTemplate->getSkin();
@@ -47,7 +47,8 @@ class ReadAloud {
 		];
 
 		// Add the buttons
-		$links['actions']['read-aloud'] = $readAloud;
-		$links['actions']['pause-reading'] = $pauseReading;
+		$location = $wgReadAloudNearEdit ? 'views' : 'actions';
+		$links[ $location ]['read-aloud'] = $readAloud;
+		$links[ $location ]['pause-reading'] = $pauseReading;
 	}
 }
