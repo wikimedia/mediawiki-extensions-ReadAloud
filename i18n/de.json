@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"readaloud-desc": "Fügt eine Schaltfläche hinzu, um die aktuelle Seite vorzulesen",
+	"readaloud-read-aloud": "Vorlesen",
+	"readaloud-pause-reading": "Vorlesen pausieren"
+}
