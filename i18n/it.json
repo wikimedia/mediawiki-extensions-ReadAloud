@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16"
+		]
+	},
+	"readaloud-desc": "Aggiunge un pulsante per leggere l'attuale pagina a voce alta",
+	"readaloud-read-aloud": "Leggi a voce alta"
+}
