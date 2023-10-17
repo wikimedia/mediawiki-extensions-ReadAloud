@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hedda"
+		]
+	},
+	"readaloud-desc": "Geçerli sayfayı yüksek sesle okumak için bir düğme ekleyin",
+	"readaloud-read-aloud": "Yüksek sesle oku",
+	"readaloud-pause-reading": "Okumayı duraklat"
+}
