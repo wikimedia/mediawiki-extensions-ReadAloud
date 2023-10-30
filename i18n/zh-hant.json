@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly"
+		]
+	},
+	"readaloud-desc": "新增用來朗讀目前頁面的按鈕",
+	"readaloud-read-aloud": "朗讀",
+	"readaloud-pause-reading": "暫停閱讀"
+}
