@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"readaloud-desc": "Legg til en knapp for å lese siden høyt",
+	"readaloud-read-aloud": "Les høyt",
+	"readaloud-pause-reading": "Sett lesing på pause"
+}
