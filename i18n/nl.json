@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"readaloud-desc": "Voeg een knop toe om de huidige pagina voor te lezen",
+	"readaloud-read-aloud": "Voorlezen",
+	"readaloud-pause-reading": "Voorlezen pauzeren"
+}
