@@ -50,7 +50,9 @@ window.ReadAloud = {
 		text = text.replace( / ([A-Z])\./g, ' $1' ); // Remove dots from acronyms to prevent confusion with sentences
 		text = text.replace( /[([].*?[\])]/g, '' ); // Don't read parentheses
 		var sentences = text.split( '. ' ); // Include space to prevent matching things like "99.9%"
-		sentences = sentences.filter( s => s ); // Remove empty sentences
+		sentences = sentences.filter( function ( s ) {
+			return !!s; // Remove empty sentences
+		} );
 		ReadAloud.sentences = sentences;
 		ReadAloud.readNextSentence();
 	},

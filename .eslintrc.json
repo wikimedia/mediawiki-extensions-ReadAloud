@@ -4,5 +4,9 @@
 		"wikimedia/client-es5",
 		"wikimedia/jquery",
 		"wikimedia/mediawiki"
-	]
+	],
+	"rules": {
+		"no-undef": "warn",
+		"no-jquery/no-global-selector": "warn"
+	}
 }
