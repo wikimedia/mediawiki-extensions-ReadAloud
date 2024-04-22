@@ -21,7 +21,7 @@ class ReadAloud {
 		// Only add the buttons in relevant pages
 		$skin = $skinTemplate->getSkin();
 		$title = $skin->getTitle();
-		if ( ! $title->exists() ) {
+		if ( !$title->exists() ) {
 			return;
 		}
 		$context = $skin->getContext();
@@ -30,7 +30,7 @@ class ReadAloud {
 			return;
 		}
 		$namespace = $title->getNamespace();
-		if ( ! in_array( $namespace, $wgReadAloudNamespaces ) ) {
+		if ( !in_array( $namespace, $wgReadAloudNamespaces ) ) {
 			return;
 		}
 
