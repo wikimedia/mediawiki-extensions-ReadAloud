@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"WillyM"
+		]
+	},
+	"readaloud-desc": "Ajoutez un bouton pour lire la page actuelle à haute voix",
+	"readaloud-read-aloud": "Lire à haute voix",
+	"readaloud-pause-reading": "Suspendre la lecture"
+}
