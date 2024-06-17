@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
+			"SleaY",
 			"WillyM"
 		]
 	},
 	"readaloud-desc": "Ajoutez un bouton pour écouter la page actuelle",
-	"readaloud-read-aloud": "Ecouter",
+	"readaloud-read-aloud": "Écouter",
 	"readaloud-pause-reading": "Suspendre l'écoute"
 }
