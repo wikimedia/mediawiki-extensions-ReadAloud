@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Peterxy12"
+		]
+	},
+	"readaloud-desc": "新增用來朗讀目前頁面的按鈕",
+	"readaloud-read-aloud": "朗读",
+	"readaloud-pause-reading": "暂停阅读"
+}
