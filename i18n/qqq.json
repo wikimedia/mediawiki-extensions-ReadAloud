@@ -2,10 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Sophivorus",
+			"Toliño",
 			"WillyM"
 		]
 	},
-	"readaloud-desc": "Ajouter un bouton pour lire la page actuelle à voix haute",
-	"readaloud-read-aloud": "Lire à voix haute",
-	"readaloud-pause-reading": "Suspendre la lecture"
+	"readaloud-desc": "{{desc|name=ReadAloud|url=https://www.mediawiki.org/wiki/Extension:ReadAloud}}",
+	"readaloud-read-aloud": "Label for the button to start reading aloud",
+	"readaloud-pause-reading": "Label for the button to pause reading aloud"
 }
