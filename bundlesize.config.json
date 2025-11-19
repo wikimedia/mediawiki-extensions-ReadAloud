@@ -1,0 +1,10 @@
+[
+	{
+		"resourceModule": "ext.ReadAloud",
+		"maxSize": null
+	},
+	{
+		"resourceModule": "ext.ReadAloud.styles",
+		"maxSize": null
+	}
+]
