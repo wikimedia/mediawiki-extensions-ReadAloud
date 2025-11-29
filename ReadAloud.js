@@ -34,33 +34,32 @@ window.ReadAloud = {
 		}
 
 		// Only read selected elements
-		var $content = $( '#mw-content-text .mw-parser-output' );
-		var $elements = $content.children( 'h1, h2, h3, h4, h5, h6, p, ul, ol' );
+		const $content = $( '#mw-content-text .mw-parser-output' );
+		const $elements = $content.children( 'h1, h2, h3, h4, h5, h6, p, ul, ol' );
 		$elements.addClass( 'read' ).on( 'click', ReadAloud.jumpToElement );
 		ReadAloud.readNextElement();
 	},
 
 	index: 0,
 	readNextElement: function () {
-		var $element = $( '.read' ).eq( ReadAloud.index );
+		const $element = $( '.read' ).eq( ReadAloud.index );
 		ReadAloud.index++;
 		$( '.reading' ).removeClass( 'reading' );
 		$element.addClass( 'reading' );
-		var text = $element.text();
+		let text = $element.text();
 		text = text.replace( / ([A-Z])\./g, ' $1' ); // Remove dots from acronyms to prevent confusion with sentences
 		text = text.replace( /[([].*?[\])]/g, '' ); // Don't read parentheses
-		var sentences = text.split( '. ' ); // Include space to prevent matching things like "99.9%"
-		sentences = sentences.filter( function ( s ) {
-			return !!s; // Remove empty sentences
-		} );
+		let sentences = text.split( '. ' ); // Include space to prevent matching things like "99.9%"
+		sentences = sentences.filter( ( s ) => !!s // Remove empty sentences
+		 );
 		ReadAloud.sentences = sentences;
 		ReadAloud.readNextSentence();
 	},
 
 	sentences: [],
 	readNextSentence: function () {
-		var sentence = ReadAloud.sentences.shift();
-		var utterance = new window.SpeechSynthesisUtterance( sentence );
+		const sentence = ReadAloud.sentences.shift();
+		const utterance = new window.SpeechSynthesisUtterance( sentence );
 		utterance.lang = mw.config.get( 'wgPageContentLanguage' );
 		window.speechSynthesis.cancel();
 		window.speechSynthesis.speak( utterance );
@@ -94,8 +93,8 @@ window.ReadAloud = {
 	nextElementTimeout: null,
 	nextSentenceTimeout: null,
 	jumpToElement: function () {
-		var $element = $( this );
-		var index = $( '.read' ).index( $element );
+		const $element = $( this );
+		const index = $( '.read' ).index( $element );
 		ReadAloud.index = index;
 		ReadAloud.skipNextSentence = true;
 		ReadAloud.readNextElement();
