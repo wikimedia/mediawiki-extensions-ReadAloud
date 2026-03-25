@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardoaddad"
+		]
+	},
+	"readaloud-desc": "Adicione um botão para ler a página atual em voz alta",
+	"readaloud-read-aloud": "Ler em voz alta",
+	"readaloud-pause-reading": "Pausar a leitura"
+}
