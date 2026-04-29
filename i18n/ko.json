@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Tensama0415"
+		]
+	},
+	"readaloud-desc": "현재 페이지를 소리내어 읽어주는 버튼을 추가합니다",
+	"readaloud-read-aloud": "소리내어 읽기",
+	"readaloud-pause-reading": "읽기 일시중지"
+}
