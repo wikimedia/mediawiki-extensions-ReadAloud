@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Repakr"
+		]
+	},
+	"readaloud-desc": "Додати кнопку для читання поточної сторінки вголос",
+	"readaloud-read-aloud": "Читати вголос",
+	"readaloud-pause-reading": "Призупинити читання"
+}
