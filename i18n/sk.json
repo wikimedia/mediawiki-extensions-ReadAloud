@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Wizzard"
+		]
+	},
+	"readaloud-desc": "Pridáva tlačidlo na nahlas prečítanie aktuálnej stránky",
+	"readaloud-read-aloud": "Čítať nahlas",
+	"readaloud-pause-reading": "Pozastaviť čítanie"
+}
