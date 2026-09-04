@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"PanWor"
+		]
+	},
+	"readaloud-desc": "Dodaje przycisk do odczytania bieżącej strony na głos",
+	"readaloud-read-aloud": "Czytaj na głos",
+	"readaloud-pause-reading": "Wstrzymaj czytanie"
+}
